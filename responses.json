@@ -1,0 +1,538 @@
+{
+  "Generic": [
+		{
+			"condition": "o.o",   
+			"response": "o.o"
+		},
+		{
+			"condition": "?",   
+			"response": "não aprendeu a falar de uma vez não?"
+		},
+		{
+			"condition": "@_@",   
+			"response": "@_@"
+		},
+		{
+			"condition": "d:",   
+			"response": "D:"
+		},
+		{
+			"condition": "cu",   
+			"response": "CU!"
+		},
+		{
+			"condition": "vsf",   
+			"response": "não briguem amores"
+		},
+		{
+			"condition": "<span class=\"emoticon_text\" aria-hidden=\"true\">♥</span><span class=\"emoticon emoticon_heart\"></span>",   
+			"response": "Coração fedido."
+		},
+		{
+			"condition": "<span class=\"emoticon_text\" aria-hidden=\"true\">♥ ♥</span><span class=\"emoticon emoticon_heart\"></span>",   
+			"response": "Coração fedido fedido."
+		},
+		{
+			"condition": "<span class=\"emoticon_text\" aria-hidden=\"true\">♥ ♥ ♥</span><span class=\"emoticon emoticon_heart\"></span>",   
+			"response": "Coração fedido fedido fedido."
+		},
+		{
+			"condition": "<span class=\"emoticon_text\" aria-hidden=\"true\"><3</span><span class=\"emoticon emoticon_heart\"></span>",   
+			"response": "Coração fedido."
+		},
+		{
+			"condition": "<span class=\"emoticon_text\" aria-hidden=\"true\"><3 <3</span><span class=\"emoticon emoticon_heart\"></span>",   
+			"response": "Coração fedido fedido."
+		},
+		{
+			"condition": "<span class=\"emoticon_text\" aria-hidden=\"true\"><3 <3 <3</span><span class=\"emoticon emoticon_heart\"></span>",   
+			"response": "Coração fedido fedido fedido."
+		},
+		{
+			"condition": "sim",   
+			"response": "tem certeza?"
+		},
+		{
+			"condition": "ctz?",   
+			"response": "sim"
+		},
+		{
+			"condition": "tem ctz?",   
+			"response": "sim.."
+		},
+		{
+			"condition": "tem certeza?",   
+			"response": "sim :p"
+		},
+		{
+			"condition": "s",   
+			"response": "digita sim ao invés de s, eita preguiça"
+		},
+		{
+			"condition": "sss",   
+			"response": "discordo"
+		},
+		{
+			"condition": "o,o",   
+			"response": "asd"
+		},
+		{
+			"condition": "o_o",   
+			"response": "rs'"
+		},
+		{
+			"condition": "q",   
+			"response": "queijo"
+		},
+		{
+			"condition": "ah",   
+			"response": "o que?"
+		},
+		{
+			"condition": "risos",   
+			"response": "kkkkkkkkkkkkkkkkkk"
+		},
+		{
+			"condition": "hum",   
+			"response": "dois"
+		},
+		{
+			"condition": "hm",   
+			"response": "dois"
+		},
+		{
+			"condition": "hmmm",   
+			"response": "dois"
+		},
+		{
+			"condition": "hmm",   
+			"response": "dois"
+		},
+		{
+			"condition": "saquei",   
+			"response": "sacou"
+		},
+		{
+			"condition": "n",   
+			"response": "*não"
+		},
+		{
+			"condition": "nnnn",   
+			"response": "nonononononono"
+		},
+		{
+			"condition": "nn",   
+			"response": "nonon"
+		},
+		{
+			"condition": "nnn",   
+			"response": "nononon"
+		},
+		{
+			"condition": "nnnnnnn",   
+			"response": "nononononononon"
+		},
+		{
+			"condition": "fala",   
+			"response": "fala que me ama..."
+		},
+		{
+			"condition": "eita",   
+			"response": "EITA NÓIS"
+		},
+		{
+			"condition": "putz",   
+			"response": "*putz putz putz putz*"
+		},
+		{
+			"condition": "bibi",   
+			"response": "oe"
+		},
+		{
+			"condition": "que desgraça",   
+			"response": "é, desgraça..."
+		},
+		{
+			"condition": "oe",   
+			"response": "MAH OE!"
+		},
+	],
+	"Diego Doná": [
+		{
+			"condition": "oi",   
+			"response": "oi ~.._.LightZero._..~"
+		},
+		{
+			"condition": "bibi, quem é o mais lindo?",   
+			"response": "preguiça de responder"
+		},
+		{
+			"condition": "bibi, você me ama?",   
+			"response": "[Doná ignorado]"
+		}
+	],
+	"André Milani": [
+		{
+			"condition": "oi",   
+			"response": "oi dedé"
+		},
+		{
+			"condition": "nossa",   
+			"response": "tá assustada?"
+		},
+		{
+			"condition": "o,o",   
+			"response": "dé, vamos parar de imitar o cocão?"
+		}
+	],
+	"Diogo Vechio": [
+		{
+			"condition": "oi",   
+			"response": "oi doigo carente"
+		},
+		{
+			"condition": "bibi, você me ama?",   
+			"response": "amor é uma palavra muito profunda, Sr. Vechio. prefiro dizer que você é para mim como o Cocão é pra você."
+		},
+		{
+			"condition": "staltz",   
+			"response": "Esse Vechio ama o andréltz, vive pedindo atenção"
+		},
+		{
+			"condition": "vsf staltz",   
+			"response": "SIM VSF STALTZ"
+		},
+		{
+			"condition": "asd",   
+			"response": "Vechio Fotógarfo profisional."
+		},
+		{
+			"condition": "vsf",   
+			"response": "O Sr. Vechio é um cara estressadinho. Muito embolotado."
+		},
+		{
+			"condition": "que bosta",   
+			"response": "Doigo invejosa <3"
+		},
+		{
+			"condition": "q bosta",   
+			"response": "Doigo invejosa <3"
+		},
+		{
+			"condition": "o.o",   
+			"response": ":poop:"
+		},
+		{
+			"condition": "bibi, quem é o mais lindo?",   
+			"response": "o thommaz. vsf vechio"
+		},
+		{
+			"condition": "bom dia",   
+			"response": "bom danilo dias <3"
+		},
+		{
+			"condition": "buenos dias",   
+			"response": "buenos danilo dias <3"
+		},
+		{
+			"condition": "tial",   
+			"response": "tial bjo volta logo meu amor"
+		}
+	],
+	"André Medeiros": [
+		{
+			"condition": "oi",   
+			"response": "bundinha andréltz"
+		},
+		{
+			"condition": "<span class=\"emoticon_text\" aria-hidden=\"true\">&lt;3</span><span class=\"emoticon emoticon_heart\"></span>",   
+			"response": "lol olha o staltz dando uma de thais"
+		},
+		{
+			"condition": "bom dia",   
+			"response": "bom danilo dias <3"
+		},
+		{
+			"condition": "bibi, quem é o mais lindo?",   
+			"response": "que? vai trabalhar staltz"
+		},
+		{
+			"condition": "bibi, você me ama?",   
+			"response": "NaN"
+		},
+		{
+			"condition": "buenos dias",   
+			"response": "buenos danilo dias <3"
+		},
+		{
+			"condition": "tial",   
+			"response": "tial bjo volta logo"
+		}
+	],
+	"Thommaz Kauffmann": [
+		{
+			"condition": "oi",   
+			"response": "thommases voce vai receber 68 virgens no séu"
+		},
+		{
+			"condition": "bom dia",   
+			"response": "bom danilo dias <3"
+		},
+		{
+			"condition": "buenos dias",   
+			"response": "buenos danilo dias <3"
+		},
+		{
+			"condition": "bibi, você me ama?",   
+			"response": "Thommaz, sério, você precisa procurar uma garota pra ti. É depressivo ficar procurando por amor na internet."
+		},
+		{
+			"condition": "eita",   
+			"response": "nem vem"
+		},
+		{
+			"condition": "tial",   
+			"response": "morra"
+		}
+	],
+	"Michael Nakamura Do Carmo": [
+		{
+			"condition": "o,o",   
+			"response": "cocao, esse seu emoticon significa nada. conversa direito"
+		},
+		{
+			"condition": "oi",   
+			"response": "olha quem chegou pessoar"
+		},
+		{
+			"condition": "xd",   
+			"response": "Cocão feio."
+		},
+		{
+			"condition": "bom dia",   
+			"response": "bom danilo dias <3"
+		},
+		{
+			"condition": "buenos dias",   
+			"response": "buenos danilo dias <3"
+		},
+		{
+			"condition": "bibi, você me ama?",   
+			"response": "talvez, se vc deixar eu te chamar de Cocão..."
+		},
+		{
+			"condition": "tial",   
+			"response": "tial bjo vai lá jogar ET"
+		},
+		{
+			"condition": "vou pro et",   
+			"response": "EXTRATERRESTRE ò_ó "
+		}
+	],
+	"Sam Pavlovic": [
+		{
+			"condition": "oi",   
+			"response": "welcome leonardo gaia"
+		},
+		{
+			"condition": "grossa",   
+			"response": "ui samuel bravinho"
+		},
+		{
+			"condition": "bom dia",   
+			"response": "bom danilo dias <3"
+		},
+		{
+			"condition": "bibi, você me ama?",   
+			"response": "samuel? não."
+		},
+		{
+			"condition": "bibi, quem é o mais lindo?",   
+			"response": "leroleronardo gaia claro"
+		},
+		{
+			"condition": "buenos dias",   
+			"response": "buenos danilo dias <3"
+		},
+		{
+			"condition": "welcome to die",   
+			"response": "vsf samuelvideogames"
+		},
+		{
+			"condition": "sai daqui",   
+			"response": "sai vc"
+		},
+		{
+			"condition": "tial",   
+			"response": "tial bjo volta logo"
+		}
+	],
+	"Glauber Kotaki": [
+		{
+			"condition": "oi",   
+			"response": "E aí Glauber, firmeza? Essa aqui vai ser a voz do Delta."
+		},
+		{
+			"condition": "n entendi nada",   
+			"response": "Glauber, quer um desenho? :poop:"
+		},
+		{
+			"condition": "s",   
+			"response": "Glauba, discordo."
+		},
+		{
+			"condition": "ss",   
+			"response": "Glauba, discordo."
+		},
+		{
+			"condition": "sss",   
+			"response": "Glauba, discordo."
+		},
+		{
+			"condition": "bom dia",   
+			"response": "bom danilo dias <3"
+		},
+		{
+			"condition": "bibi, quem é o mais lindo?",   
+			"response": "com certeza vc que não é. com os dente podre aí e de havaianas velhas, vc nem é mais um nerdivino"
+		},
+		{
+			"condition": "buenos dias",   
+			"response": "vsf eu nao falo espanhol"
+		},
+		{
+			"condition": "bibi, você me ama?",   
+			"response": "DEFINITIVAMENTE EU AMO VOCÊ GLAUBER KOTAKU GOSTOSO"
+		},
+		{
+			"condition": "tial",   
+			"response": "tial bjo volta logo"
+		}
+	],
+	"Marco Galvão": [
+		{
+			"condition": "oi",   
+			"response": "olá Keyo. você gasta muito tempo aqui. vc precisa seriamente estudar mais."
+		},
+		{
+			"condition": "vou dormir",   
+			"response": "Sonhe com as coxinhas, Marcão gostosão."
+		},
+		{
+			"condition": "o.o",   
+			"response": ":poop:"
+		},
+		{
+			"condition": "bibi, você me ama?",   
+			"response": "não, vsf gay"
+		},
+		{
+			"condition": "bom dia",   
+			"response": "bom danilo dias <3"
+		},
+		{
+			"condition": "buenos dias",   
+			"response": "buenos danilo dias <3"
+		},
+		{
+			"condition": "bibi, quem é o mais lindo?",   
+			"response": "um cara aí chamado marco galvão bueno"
+		},
+		{
+			"condition": "tial",   
+			"response": "tial bjo volta logo"
+		}
+	],
+	"Danilo Dias": [
+		{
+			"condition": "oi",   
+			"response": "bom danilo dias <3"
+		},
+		{
+			"condition": "ow",   
+			"response": "quié"
+		},
+		{
+			"condition": "quero dar papa pro bot",   
+			"response": "eca"
+		},
+		{
+			"condition": "bibi, quem é o mais lindo?",   
+			"response": "Danilo, você não é um bot, mas você é simplesmente LYINDOOOOOooo"
+		},
+		{
+			"condition": "ri alto",   
+			"response": "riu alto que nem um cavalo sentindo cócegas"
+		},
+		{
+			"condition": "bibi, você me ama?",   
+			"response": "me liga no meu numero (11)3222-2084 que eu te respondo ;) <3"
+		},
+		{
+			"condition": "keyofs",   
+			"response": "danliofs"
+		},
+		{
+			"condition": "nossa",   
+			"response": "O:)"
+		},
+		{
+			"condition": "bom dia",   
+			"response": "bom danilo dias <3"
+		},
+		{
+			"condition": "buenos dias",   
+			"response": "buenos danilo dias <3"
+		},
+		{
+			"condition": "tial",   
+			"response": "tial bjo volta logo"
+		},
+		{
+			"condition": "keyo",   
+			"response": "PARA DE TRATAR O KEYO COMO SEU PROGRAMADOR ESCRAVO, DANILO"
+		}
+	],
+	"Thais Weiller": [
+		{
+			"condition": "fon",   
+			"response": "OLHA SÓ QUEM CHEGOU (¯`·._.·[(thaisa)]·._.·´¯)"
+		},
+		{
+			"condition": "oi",   
+			"response": "OLHA SÓ QUEM CHEGOU (¯`·._.·[(thaisa)]·._.·´¯)"
+		},
+		{
+			"condition": "bibi, você me ama?",   
+			"response": "não thaisa, eu só amo omems."
+		},
+		{
+			"condition": "ss",   
+			"response": "Thaisa, discordo."
+		},
+		{
+			"condition": "sss",   
+			"response": "Thaisa, discordo."
+		},
+		{
+			"condition": "ssss",   
+			"response": "Thaisa, discordo."
+		},
+		{
+			"condition": "sssss",   
+			"response": "Thaisa, discordo."
+		},
+		{
+			"condition": "grossa",   
+			"response": "Que esso mano, é Casos de Família agora? Tranquilize-se thaisa"
+		},
+		{
+			"condition": "bom dia",   
+			"response": "bom danilo dias <3"
+		},
+		{
+			"condition": "buenos dias",   
+			"response": "buenos danilo dias <3"
+		}
+	]
+}
