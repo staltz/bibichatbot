@@ -1,0 +1,48 @@
+{
+  "Laughter": [
+		{
+			"condition": "rs",   
+			"response": "como se fosse engraçado"
+		},
+		{
+			"condition": "k",   
+			"response": "cacaca"
+		},
+		{
+			"condition": "hua",   
+			"response": "rindo como um programador obeso"
+		},
+		{
+			"condition": "hao",   
+			"response": "rindo como um programador obeso"
+		},
+		{
+			"condition": "haoe",   
+			"response": "rindo como um programador obeso"
+		},
+		{
+			"condition": "hue",   
+			"response": "HEUHEUHEUEHUEHE BR"
+		},
+		{
+			"condition": "huae",   
+			"response": "só o danilo ri assim"
+		},
+		{
+			"condition": "he",   
+			"response": "esse aí não sabe rir direito"
+		},
+		{
+			"condition": "hi",   
+			"response": "ai que gracinha rindo como uma mocinha <3"
+		},
+		{
+			"condition": "ha",   
+			"response": "q q é tão engraçado? quero rir tbm. alguem me explica. nao compreendo."
+		},
+		{
+			"condition": "ria",   
+			"response": "risada de inclusão essa aí, hein"
+		}
+	]
+}
