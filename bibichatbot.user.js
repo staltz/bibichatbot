@@ -2,7 +2,7 @@
 // @name       Bibi (Chatbot for FONFON)
 // @namespace  http://about.me/andrestaltz
 // @version    0.8
-// @description  Para trollar o doigo automaticamente
+// @description  Para trollar o doigo automaticamente asd
 // @match      https://www.facebook.com/messages/conversation-id.495430780509771
 // @match      www.facebook.com/messages/conversation-id.495430780509771
 // @include      https://www.facebook.com/messages/conversation-id.495430780509771
