@@ -23,7 +23,7 @@ var replyEvt;
 var lastAuthor = null;
 
 function submit_msg() {
-  textArea.className = textArea.className.replace('DOMControl_placeholder','');
+	textArea.className = textArea.className.replace('DOMControl_placeholder','');
 	replyButton = document.getElementsByClassName('_1qp5')[3];
 	replyEvt = document.createEvent('MouseEvents');
 	replyEvt.initEvent('click',true,true);
@@ -34,7 +34,7 @@ function refresh_data() {
 	// console.log("Refreshing data...");
 	GM_xmlhttpRequest({
 		method: "GET",
-		url: "http://www.dropbox.com/s/3lr4vzs3w8wo4ve/responses.json?dl=1",
+		url: "http://raw.github.com/STALTZ/bibichatbot/master/responses.json",
 		headers: {
 			"Content-type": "charset=utf-8"
 		},
@@ -45,7 +45,7 @@ function refresh_data() {
 	});
 	GM_xmlhttpRequest({
 		method: "GET",
-		url: "http://www.dropbox.com/s/zw4pl17rbkp4961/random.json?dl=1",
+		url: "http://raw.github.com/STALTZ/bibichatbot/master/random.json",
 		headers: {
 			"Content-type": "charset=utf-8"
 		},
@@ -56,7 +56,7 @@ function refresh_data() {
 	});
 	GM_xmlhttpRequest({
 		method: "GET",
-		url: "http://www.dropbox.com/s/ybrghoojsdxbilt/laughter.json?dl=1",
+		url: "http://raw.github.com/STALTZ/bibichatbot/master/laughter.json",
 		headers: {
 			"Content-type": "charset=utf-8"
 		},
