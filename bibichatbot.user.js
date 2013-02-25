@@ -2,7 +2,7 @@
 // @name       Bibi (Chatbot for FONFON)
 // @namespace  http://about.me/andrestaltz
 // @version    0.8
-// @description  Para trollar o doigo automaticamente asd
+// @description  Para trollar o doigo automaticamente
 // @match      https://www.facebook.com/messages/conversation-id.495430780509771
 // @match      www.facebook.com/messages/conversation-id.495430780509771
 // @include      https://www.facebook.com/messages/conversation-id.495430780509771
@@ -22,7 +22,8 @@ var replyButton;
 var replyEvt;
 var lastAuthor = null;
 
-function submit_msg() {
+function submit_msg(msg) {
+	textArea.value = msg;
 	textArea.className = textArea.className.replace('DOMControl_placeholder','');
 	replyButton = document.getElementsByClassName('_1qp5')[3];
 	replyEvt = document.createEvent('MouseEvents');
@@ -69,8 +70,7 @@ function refresh_data() {
 
 function say_random() {
 	if(lastAuthor != bot_name) {
-		textArea.value = random_responses["Random"][Math.floor(Math.random()*random_responses["Random"].length)];
-		submit_msg();
+		submit_msg( random_responses["Random"][Math.floor(Math.random()*random_responses["Random"].length)] );
 	}
 }
 
@@ -106,30 +106,26 @@ function poll() {
 					}
 					// Must have nothing else than the characters
 					if(msgContent.replace(new RegExp("("+laughter_responses["Laughter"][j].condition.split("").join("|")+")","gi"), "").length === 0) {
-						textArea.value = laughter_responses["Laughter"][j].response;
-						submit_msg();
+						submit_msg( laughter_responses["Laughter"][j].response );
 					}
 				}
 				for(j = 0; j < responses["Generic"].length; j++) {
 					if(msgContent === responses["Generic"][j].condition) {
-							textArea.value = responses["Generic"][j].response;
-							submit_msg();
+							submit_msg( responses["Generic"][j].response );
 					}
 				}
 				for(j = 0; j < responses[msgAuthor].length; j++) {
 					if(msgContent === responses[msgAuthor][j].condition) {
-							textArea.value = responses[msgAuthor][j].response;
-							submit_msg();
+							submit_msg( responses[msgAuthor][j].response );
 					}
 				}
 				if(msgContent.search(/bibi/) === 0 && msgContent.search(new RegExp(yes_or_no_question,"gi")) === msgContent.length - yes_or_no_question.length) {
 					if(Math.random() < 0.5) {
-						textArea.value = "sss (y)";
+						submit_msg("sss (y)");
 					}
 					else {
-						textArea.value = "non :D";
+						submit_msg("non :D");
 					}
-					submit_msg();
 				}
 			}
 		}
