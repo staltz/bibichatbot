@@ -145,7 +145,7 @@
 			"response": "*putz putz putz putz*"
 		},
 		{
-			"condition": "bibi",   
+			"condition": "alex",   
 			"response": "oe"
 		},
 		{
@@ -163,11 +163,11 @@
 			"response": "oi ~.._.LightZero._..~"
 		},
 		{
-			"condition": "bibi, quem é o mais lindo?",   
+			"condition": "alex, quem é o mais lindo?",   
 			"response": "preguiça de responder"
 		},
 		{
-			"condition": "bibi, você me ama?",   
+			"condition": "alex, você me ama?",   
 			"response": "[Doná ignorado]"
 		}
 	],
@@ -191,7 +191,7 @@
 			"response": "oi doigo carente"
 		},
 		{
-			"condition": "bibi, você me ama?",   
+			"condition": "alex, você me ama?",   
 			"response": "amor é uma palavra muito profunda, Sr. Vechio. prefiro dizer que você é para mim como o Cocão é pra você."
 		},
 		{
@@ -223,7 +223,7 @@
 			"response": ":poop:"
 		},
 		{
-			"condition": "bibi, quem é o mais lindo?",   
+			"condition": "alex, quem é o mais lindo?",   
 			"response": "o thommaz. vsf vechio"
 		},
 		{
@@ -253,11 +253,11 @@
 			"response": "bom danilo dias <3"
 		},
 		{
-			"condition": "bibi, quem é o mais lindo?",   
+			"condition": "alex, quem é o mais lindo?",   
 			"response": "que? vai trabalhar staltz"
 		},
 		{
-			"condition": "bibi, você me ama?",   
+			"condition": "alex, você me ama?",   
 			"response": "NaN"
 		},
 		{
@@ -283,7 +283,7 @@
 			"response": "buenos danilo dias <3"
 		},
 		{
-			"condition": "bibi, você me ama?",   
+			"condition": "alex, você me ama?",   
 			"response": "Thommaz, sério, você precisa procurar uma garota pra ti. É depressivo ficar procurando por amor na internet."
 		},
 		{
@@ -317,7 +317,7 @@
 			"response": "buenos danilo dias <3"
 		},
 		{
-			"condition": "bibi, você me ama?",   
+			"condition": "alex, você me ama?",   
 			"response": "talvez, se vc deixar eu te chamar de Cocão..."
 		},
 		{
@@ -343,11 +343,11 @@
 			"response": "bom danilo dias <3"
 		},
 		{
-			"condition": "bibi, você me ama?",   
+			"condition": "alex, você me ama?",   
 			"response": "samuel? não."
 		},
 		{
-			"condition": "bibi, quem é o mais lindo?",   
+			"condition": "alex, quem é o mais lindo?",   
 			"response": "leroleronardo gaia claro"
 		},
 		{
@@ -393,7 +393,7 @@
 			"response": "bom danilo dias <3"
 		},
 		{
-			"condition": "bibi, quem é o mais lindo?",   
+			"condition": "alex, quem é o mais lindo?",   
 			"response": "com certeza vc que não é. com os dente podre aí e de havaianas velhas, vc nem é mais um nerdivino"
 		},
 		{
@@ -401,7 +401,7 @@
 			"response": "vsf eu nao falo espanhol"
 		},
 		{
-			"condition": "bibi, você me ama?",   
+			"condition": "alex, você me ama?",   
 			"response": "DEFINITIVAMENTE EU AMO VOCÊ GLAUBER KOTAKU GOSTOSO"
 		},
 		{
@@ -423,7 +423,7 @@
 			"response": ":poop:"
 		},
 		{
-			"condition": "bibi, você me ama?",   
+			"condition": "alex, você me ama?",   
 			"response": "não, vsf gay"
 		},
 		{
@@ -435,7 +435,7 @@
 			"response": "buenos danilo dias <3"
 		},
 		{
-			"condition": "bibi, quem é o mais lindo?",   
+			"condition": "alex, quem é o mais lindo?",   
 			"response": "um cara aí chamado marco galvão bueno"
 		},
 		{
@@ -457,7 +457,7 @@
 			"response": "eca"
 		},
 		{
-			"condition": "bibi, quem é o mais lindo?",   
+			"condition": "alex, quem é o mais lindo?",   
 			"response": "Danilo, você não é um bot, mas você é simplesmente LYINDOOOOOooo"
 		},
 		{
@@ -465,7 +465,7 @@
 			"response": "riu alto que nem um cavalo sentindo cócegas"
 		},
 		{
-			"condition": "bibi, você me ama?",   
+			"condition": "alex, você me ama?",   
 			"response": "me liga no meu numero (11)3222-2084 que eu te respondo ;) <3"
 		},
 		{
@@ -503,7 +503,7 @@
 			"response": "OLHA SÓ QUEM CHEGOU (¯`·._.·[(thaisa)]·._.·´¯)"
 		},
 		{
-			"condition": "bibi, você me ama?",   
+			"condition": "alex, você me ama?",   
 			"response": "não thaisa, eu só amo omems."
 		},
 		{
