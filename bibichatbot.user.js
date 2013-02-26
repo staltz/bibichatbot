@@ -11,7 +11,7 @@
 // @copyright  2012+, You
 // ==/UserScript==
 
-var bot_name = "Bibi Chatbot";
+var bot_name = "Alex Empalado";
 var yes_or_no_question = "sim ou não?";
 var responses = {};
 var random_responses = {};
@@ -119,7 +119,7 @@ function poll() {
 							submit_msg( responses[msgAuthor][j].response );
 					}
 				}
-				if(msgContent.search(/bibi/) === 0 && msgContent.search(new RegExp(yes_or_no_question,"gi")) === msgContent.length - yes_or_no_question.length) {
+				if(msgContent.search(/alex/) === 0 && msgContent.search(new RegExp(yes_or_no_question,"gi")) === msgContent.length - yes_or_no_question.length) {
 					if(Math.random() < 0.5) {
 						submit_msg("sss (y)");
 					}
