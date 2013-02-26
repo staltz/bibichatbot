@@ -141,4 +141,4 @@ var tryGetTextArea = setInterval(function(){
 refresh_data();
 setInterval(refresh_data, 120000);
 var _interval_id_b = setInterval(poll,300);
-setInterval(say_random, 400000);
+setInterval(say_random, 900000);
