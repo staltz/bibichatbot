@@ -11,7 +11,8 @@
 // @copyright  2012+, You
 // ==/UserScript==
 
-var bot_name = "Alex Empalado";
+var bot_name = "Bibi Chatbot";
+var bot_nick = "bibi";
 var yes_or_no_question = "sim ou não?";
 var responses = {};
 var random_responses = {};
@@ -32,7 +33,7 @@ function submit_msg(msg) {
 }
 
 function refresh_data() {
-	// console.log("Refreshing data...");
+	//console.log("Refreshing data...");
 	GM_xmlhttpRequest({
 		method: "GET",
 		url: "http://raw.github.com/STALTZ/bibichatbot/master/responses.json",
@@ -41,7 +42,7 @@ function refresh_data() {
 		},
 		onload: function(response) {
 			responses = eval("(" + response.responseText + ")");
-			// console.log(responses);
+			//console.log(responses);
 		},
 	});
 	GM_xmlhttpRequest({
@@ -52,7 +53,7 @@ function refresh_data() {
 		},
 		onload: function(response) {
 			random_responses = eval("(" + response.responseText + ")");
-			// console.log(random_responses);
+			//console.log(random_responses);
 		},
 	});
 	GM_xmlhttpRequest({
@@ -63,13 +64,14 @@ function refresh_data() {
 		},
 		onload: function(response) {
 			laughter_responses = eval("(" + response.responseText + ")");
-			// console.log(laughter_responses);
+			//console.log(laughter_responses);
 		},
 	});
 }
 
 function say_random() {
 	if(lastAuthor != bot_name) {
+		//console.log("say_random()");
 		submit_msg( random_responses["Random"][Math.floor(Math.random()*random_responses["Random"].length)] );
 	}
 }
@@ -119,7 +121,7 @@ function poll() {
 							submit_msg( responses[msgAuthor][j].response );
 					}
 				}
-				if(msgContent.search(/alex/) === 0 && msgContent.search(new RegExp(yes_or_no_question,"gi")) === msgContent.length - yes_or_no_question.length) {
+				if(msgContent.search(bot_nick) === 0 && msgContent.search(new RegExp(yes_or_no_question,"gi")) === msgContent.length - yes_or_no_question.length) {
 					if(Math.random() < 0.5) {
 						submit_msg("sss (y)");
 					}
@@ -127,13 +129,16 @@ function poll() {
 						submit_msg("non :D");
 					}
 				}
+				else if (msgContent.search(bot_nick) === 0 && msgContent.search("\\?") === msgContent.length - 1) {
+					submit_msg("sei lá. pergunta pro diogo, ele (acha que) sabe de tudo");
+				}
 			}
 		}
 	}
 }
 
 // Initialization ----------------------------------
-// console.log("Bibi started");
+console.log("Bibi started");
 var tryGetTextArea = setInterval(function(){
   textArea = document.getElementsByClassName('_1rv')[0];
 	clearInterval(tryGetTextArea);
@@ -141,4 +146,4 @@ var tryGetTextArea = setInterval(function(){
 refresh_data();
 setInterval(refresh_data, 120000);
 var _interval_id_b = setInterval(poll,300);
-setInterval(say_random, 1800000);
+setInterval(say_random, 600000);
