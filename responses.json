@@ -12,6 +12,10 @@
 			"condition": "@_@",   
 			"response": "@_@"
 		},
+				{
+			"condition": "boa noite",   
+			"response": "tial"
+		},
 		{
 			"condition": "d:",   
 			"response": "D:"
