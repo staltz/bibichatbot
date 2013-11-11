@@ -2,7 +2,7 @@
   "Laughter": [
 		{
 			"condition": "rs",   
-			"response": "como se fosse engraçado"
+			"response": "ninguem riu com vc"
 		},
 		{
 			"condition": "k",   
@@ -38,7 +38,7 @@
 		},
 		{
 			"condition": "ha",   
-			"response": "q q é tão engraçado? quero rir tbm. alguem me explica. nao compreendo."
+			"response": "O Thommaz me precisa de explicar-se o que é tão engraçado nesta conversinha.`"
 		},
 		{
 			"condition": "ria",   

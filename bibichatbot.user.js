@@ -26,7 +26,7 @@ var lastAuthor = null;
 function submit_msg(msg) {
 	textArea.value = msg;
 	textArea.className = textArea.className.replace('DOMControl_placeholder','');
-	replyButton = document.getElementsByClassName('_1qp5')[3];
+	replyButton = document.getElementById('u_0_1b');
 	replyEvt = document.createEvent('MouseEvents');
 	replyEvt.initEvent('click',true,true);
 	replyButton.dispatchEvent(replyEvt);
@@ -41,8 +41,10 @@ function refresh_data() {
 			"Content-type": "charset=utf-8"
 		},
 		onload: function(response) {
-			responses = eval("(" + response.responseText + ")");
-			//console.log(responses);
+			if(Object.keys(response).length > 0) {
+				responses = eval("(" + response.responseText + ")");
+				//console.log(responses);
+			}
 		},
 	});
 	GM_xmlhttpRequest({
@@ -52,8 +54,10 @@ function refresh_data() {
 			"Content-type": "charset=utf-8"
 		},
 		onload: function(response) {
-			random_responses = eval("(" + response.responseText + ")");
-			//console.log(random_responses);
+			if(Object.keys(response).length > 0) {
+				random_responses = eval("(" + response.responseText + ")");
+				//console.log(random_responses);
+			}
 		},
 	});
 	GM_xmlhttpRequest({
@@ -63,8 +67,10 @@ function refresh_data() {
 			"Content-type": "charset=utf-8"
 		},
 		onload: function(response) {
-			laughter_responses = eval("(" + response.responseText + ")");
-			//console.log(laughter_responses);
+			if(Object.keys(response).length > 0) {
+				laughter_responses = eval("(" + response.responseText + ")");
+				//console.log(laughter_responses);
+			}
 		},
 	});
 }
@@ -78,25 +84,23 @@ function say_random() {
 
 var previousPolledParagraph = null;
 function poll() {
-	// console.log("Polling the msgs...");
+	//console.log("Polling the msgs...");
 	var listMsgs = document.getElementsByClassName('webMessengerMessageGroup');
 	if(listMsgs.length > 0) {
 		var lastMsg = listMsgs[listMsgs.length-1];
-		// console.log("Inspecting new msg: "+lastMsg);
+		//console.log("Inspecting new msg: "+lastMsg);
 		var msgAuthor = lastMsg.getElementsByClassName('_36')[0].children[0].innerHTML;
 		lastAuthor = msgAuthor;
 		if( msgAuthor != bot_name ) {
-			// console.log("msgAuthor: "+msgAuthor);
+			//console.log("msgAuthor: "+msgAuthor);
 			
 			// Get most recent paragraph
 			var paragraphs = lastMsg.getElementsByClassName('_38');
 			var lastParagraph = paragraphs[paragraphs.length-1];
 			if (lastParagraph != previousPolledParagraph) {
 				previousPolledParagraph = lastParagraph;
-				var msgContent = lastParagraph.children[0].innerHTML;
-				msgContent = msgContent.toLowerCase().trim();
-				
-				// console.log("msgContent: "+msgContent);
+				var msgContent = lastParagraph.children[0].textContent.toLowerCase().trim();
+				//console.log("msgContent: "+msgContent);
 				// Test the message against patterns:
 				testLaughter: for(j = 0; j < laughter_responses["Laughter"].length; j++) {
 					// Must have all the characters
@@ -130,7 +134,7 @@ function poll() {
 					}
 				}
 				else if (msgContent.search(bot_nick) === 0 && msgContent.search("\\?") === msgContent.length - 1) {
-					submit_msg("sei lá. pergunta pro diogo, ele (acha que) sabe de tudo");
+					submit_msg("KEYOOOOO! Responde pra nozes pls");
 				}
 			}
 		}
